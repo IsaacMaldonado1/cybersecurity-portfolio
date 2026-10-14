@@ -1,0 +1,23 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and packet captures
+*.log
+*.evtx
+*.pcap
+
+# Virtual machine disks and installation media
+*.qcow2
+*.raw
+*.vdi
+*.vmdk
+*.iso
+
+# Local caches / OS metadata
+__pycache__/
+.DS_Store
+Thumbs.db
